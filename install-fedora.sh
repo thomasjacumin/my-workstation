@@ -28,10 +28,12 @@ dconf write /org/gnome/shell/favorite-apps "['org.gnome.Ptyxis.desktop', 'org.pi
 dconf write /org/gnome/desktop/interface/color-scheme "'prefer-dark'"
 dconf write /org/gnome/desktop/interface/accent-color "'green'"
 dconf write /org/gnome/desktop/interface/show-battery-percentage true
-dconf write /org/gnome/builder/editor/language/fortran/show-right-margin false
-dconf write /org/gnome/builder/editor/language/fortran/tab-width 4
 dconf write /org/gnome/desktop/interface/icon-theme "'Papirus'"
 
+dconf write /org/gnome/builder/editor/language/fortran/show-right-margin false
+dconf write /org/gnome/builder/editor/language/fortran/tab-width 4
+dconf write /org/gnome/builder/editor/language/markdown/show-right-margin false
+dconf write /org/gnome/builder/editor/language/markdown/tab-width 4
 dconf write /org/gnome/builder/editor/language/sh/show-right-margin false
 dconf write /org/gnome/builder/editor/language/sh/tab-width 4
 dconf write /org/gnome/builder/editor/show-grid-lines true
@@ -119,10 +121,6 @@ usermod -aG audio thomas
 
 # build-utils
 dnf group install -y c-development development-tools gcc-gfortran
-
-# Git config
-git config --global user.email "thomas.jacumin@matheor.com"
-git config --global user.name "Thomas Jacumin"
 
 # zsh
 dnf install -y zsh
