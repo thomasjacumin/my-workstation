@@ -22,7 +22,7 @@ dnf install -y dconf-editor gnome-tweaks gnome-builder papirus-icon-theme.noarch
 dconf reset -f /
 
 dconf write /org/gnome/shell/disable-user-extensions false
-dconf write /org/gnome/shell/enabled-extensions "['background-logo@fedorahosted.org', 'dash-to-dock@micxgx.gmail.com', 'arcmenu@arcmenu.com']"
+dconf write /org/gnome/shell/enabled-extensions "['background-logo@fedorahosted.org', 'dash-to-dock@micxgx.gmail.com', 'arcmenu@arcmenu.com', 'appindicatorsupport@rgcjonas.gmail.com']"
 dconf write /org/gnome/shell/favorite-apps "['org.gnome.Ptyxis.desktop', 'org.pipewire.Helvum.desktop', 'org.gnome.Nautilus.desktop', 'com.vivaldi.Vivaldi.desktop', 'org.mozilla.Thunderbird.desktop', 'org.zotero.Zotero.desktop', 'org.texstudio.TeXstudio.desktop', 'org.gnome.Builder.desktop', 'com.plexamp.Plexamp.desktop', 'org.musescore.MuseScore.desktop', 'mod-desktop.desktop', 'com.valvesoftware.Steam.desktop']"
 
 dconf write /org/gnome/desktop/interface/color-scheme "'prefer-dark'"
