@@ -91,6 +91,7 @@ flatpak install flathub com.obsproject.Studio -y
 flatpak install flathub org.kde.kdenlive -y
 
 flatpak install flathub com.valvesoftware.Steam -y
+flatpak install flathub com.valvesoftware.SteamLink -y
 
 flatpak install flathub org.signal.Signal -y
 flatpak install flathub chat.delta.desktop -y
